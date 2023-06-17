@@ -4,8 +4,8 @@ from django.db import models
 # Create your models here.
 
 class Profile(models.Model):
-    Name = models.CharField(max_length=30)
-    Sure_Name = models.CharField(max_length=30)
+    Name = models.CharField(max_length=50)
+    Sure_Name = models.CharField(max_length=50)
     Age = models.PositiveIntegerField()
 
     STATUS = (
